@@ -49,13 +49,21 @@ h1 {
 
 .col {
     /* these are now flex items */
+    text-align: center;
     width: 100%;
+    padding: 60px 0;
+}
+.col + .col{
+    margin-left: 5px;
 }
 
 .hero {
     padding: 100px 0;
     background-color: #23424A;
     color: #FFF;
+}
+.text-color{
+    color: #87629A;
 }
 
 .hero__text {
@@ -80,4 +88,8 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+.footer{
+    background-color: #136C72;
+    color: #FFF;
 }
